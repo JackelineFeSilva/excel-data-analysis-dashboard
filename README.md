@@ -10,9 +10,9 @@ The workbook opens on `Working Sheet`, the prepared dataset used for analysis. T
 
 ## Dataset and preparation
 
-The source tab contains **1,026 rows** and 13 fields covering customer demographics, income, commute distance, and bike purchase status. The working sheet contains **1,000 distinct records**; the extra 26 source rows are duplicates of earlier rows.
+The source tab contains **1,026 rows** and 13 fields covering customer demographics, income, commute distance, and bike purchase status. I used **Data > Remove Duplicates** to remove 26 repeated rows, leaving **1,000 distinct records** in the working sheet.
 
-In the working sheet, marital status and gender codes were expanded into readable labels. A nested `IF` formula adds age brackets for under 31, ages 31–59, and over 59. The workbook uses the labels `Adolescent`, `Midle Age`, and `Senior` (including the original spelling of `Midle Age`).
+In the working sheet, I used **Find and Replace** to change the gender codes `M` and `F` to `Male` and `Female`. Marital status codes were also expanded to `Married` and `Single`. A nested `IF` formula adds age brackets for under 31, ages 31–59, and over 59. The workbook uses the labels `Adolescent`, `Midle Age`, and `Senior` (including the original spelling of `Midle Age`).
 
 ## Analysis and dashboard
 
@@ -27,7 +27,7 @@ Four PivotTables compare purchase status by average income and gender, commute d
 
 ## Skills and tools
 
-Microsoft Excel: data cleaning and label standardization, nested `IF` formulas, PivotTables, PivotCharts, slicers, and dashboard layout.
+Microsoft Excel: Find and Replace, Remove Duplicates, nested `IF` formulas, PivotTables, PivotCharts, slicers, and dashboard layout.
 
 ## Files
 
